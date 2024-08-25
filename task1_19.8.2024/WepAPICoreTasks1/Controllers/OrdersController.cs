@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WepAPICoreTasks1.Models;
 
 namespace WepAPICoreTasks1.Controllers
@@ -17,7 +18,7 @@ namespace WepAPICoreTasks1.Controllers
         [HttpGet("Orders/getAllOrders")]
         public IActionResult getAllOrders()
         {
-            var Orders = _db.Orders.ToList();
+            var Orders = _db.Orders.Include(m => m.User);
             return Ok(Orders);
         }
 
@@ -29,12 +30,12 @@ namespace WepAPICoreTasks1.Controllers
             return Ok(Orders);
         }
 
-        //[HttpGet("Orders/GetOrderByName/{name}")]
-        //public IActionResult GetOrderByName(string name)
-        //{
-        //    var Orders = _db.Orders.Where(malik => malik. == name);
-        //    return Ok(Orders);
-        //}
+        [HttpGet("Orders/GetOrderByDate/{date}")]
+        public IActionResult GetOrderByDate(string date)
+        {
+            var Orders = _db.Orders.Where(malik => malik.OrderDate == date).ToList();
+            return Ok(Orders);
+        }
 
         [HttpDelete("Orders/DeleteOrderById/{id}")]
         public IActionResult DeleteOrder(int id)

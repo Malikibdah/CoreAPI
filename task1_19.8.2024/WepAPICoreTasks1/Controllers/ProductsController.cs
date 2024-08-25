@@ -101,5 +101,16 @@ namespace WepAPICoreTasks1.Controllers
             _db.SaveChanges();
             return NoContent();
         }
+        [HttpGet("Products/GetProductByCategoryId/{id}")]
+        public IActionResult GetProductByCategoryId(int id)
+        {
+            var Products = _db.Products.Where(malik => malik.CategoryId==id).ToList();
+            if (Products == null)
+            {
+                return NotFound();
+            }
+            return Ok(Products);
+        }
+
     }
 }
