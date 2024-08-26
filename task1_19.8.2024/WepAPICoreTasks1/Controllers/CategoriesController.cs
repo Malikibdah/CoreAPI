@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WepAPICoreTasks1.DTOs;
 using WepAPICoreTasks1.Models;
 
 namespace WepAPICoreTasks1.Controllers
@@ -89,6 +90,57 @@ namespace WepAPICoreTasks1.Controllers
             return NoContent();
         }
 
-        
+        [HttpPost]
+        public IActionResult AddCategory([FromForm] CategoryDTO categoryDTO)
+        {
+            var uploadFile = Path.Combine(Directory.GetCurrentDirectory(), "Image");
+            if (!Directory.Exists(uploadFile))
+            {
+                Directory.CreateDirectory(uploadFile);
+            }
+            var imgFile = Path.Combine(uploadFile,categoryDTO.CategoriesImage.FileName);
+            using (var steam = new FileStream(imgFile,FileMode.Create))
+            {
+                categoryDTO.CategoriesImage.CopyTo(steam);
+            }
+            
+                var newCategory = new Category()
+                {
+                    CategoryName = categoryDTO.CategoryName,
+                    CategoryImage = categoryDTO.CategoriesImage.FileName,
+                };
+            _db.Categories.Add(newCategory);
+            _db.SaveChanges();
+            return Ok();
+        }
+        [HttpPut("updateCategory/{id:int}")]
+        public IActionResult updateCategory(int id , [FromForm] CategoryDTO categoryDTO)
+        {
+            if (categoryDTO.CategoriesImage != null)
+            {
+                var uploadFile = Path.Combine(Directory.GetCurrentDirectory(), "Image");
+                if (!Directory.Exists(uploadFile))
+                {
+                    Directory.CreateDirectory(uploadFile);
+                }
+                var imgFile = Path.Combine(uploadFile, categoryDTO.CategoriesImage.FileName);
+                using (var steam = new FileStream(imgFile, FileMode.Create))
+                {
+                    categoryDTO.CategoriesImage.CopyTo(steam);
+                }
+
+            }
+            var c = _db.Categories.FirstOrDefault(m => m.CategoryId == id);
+            c.CategoryName = categoryDTO.CategoryName ?? c.CategoryName;
+            c.CategoryImage = categoryDTO.CategoriesImage.FileName ?? c.CategoryImage;
+
+            _db.Categories.Update(c);
+            _db.SaveChanges();
+
+            return Ok(); 
+        }
+
+
+
     }
 }

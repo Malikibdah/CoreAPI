@@ -16,7 +16,7 @@ async function GetProductById() {
        
     container.innerHTML = `<div class="card">
          <h5 class="card-title">${result.productName}</h5>
-         <img src="..." class="card-img-top" alt="...">
+         <img src="${result.productImage}" style="width:300px;height:200px ;" class="card-img-top" alt="...">
          <div class="card-body">
            <h5 class="card-title">${result.productId}</h5>
            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

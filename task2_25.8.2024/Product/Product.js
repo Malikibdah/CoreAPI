@@ -23,7 +23,7 @@ result.forEach(element => {
    
 container.innerHTML += `<div class="card">
      <h5 class="card-title">${element.productName}</h5>
-     <img src="..." class="card-img-top" alt="...">
+     <img src="${element.productImage}" class="card-img-top" style="width:300px;height:200px ;" alt="...">
      <div class="card-body">
        <h5 class="card-title">${element.productId}</h5>
        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

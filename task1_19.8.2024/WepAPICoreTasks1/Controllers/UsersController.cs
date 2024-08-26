@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WepAPICoreTasks1.DTOs;
 using WepAPICoreTasks1.Models;
 
 namespace WepAPICoreTasks1.Controllers
@@ -75,6 +76,35 @@ namespace WepAPICoreTasks1.Controllers
             _db.Users.Remove(User);
             _db.SaveChanges();
             return NoContent();
+        }
+        [HttpPost]
+        public IActionResult AddUser([FromForm] UserDTO userDTO )
+        {
+
+            var data = new User
+            {
+                Username = userDTO.Username ,
+                Password = userDTO.Password ,
+                Email = userDTO.Email ,
+
+            };
+
+            _db.Users.Add(data);
+            _db.SaveChanges();
+            return Ok();
+        }
+        [HttpPut("UpdateUserById/{id:int}")]
+        public IActionResult UpdateUserById(int id ,[FromForm] UserDTO userDTO)
+        {
+            var user = _db.Users.FirstOrDefault(x => x.UserId == id);
+
+            user.Username = userDTO.Username;
+            user.Password = userDTO.Password;
+            user.Email = userDTO.Email;
+
+            _db.Users.Update(user);
+            _db.SaveChanges();
+            return Ok();
         }
     }
 }
