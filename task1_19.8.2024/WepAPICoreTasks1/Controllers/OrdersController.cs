@@ -52,6 +52,41 @@ namespace WepAPICoreTasks1.Controllers
             _db.SaveChanges();
             return NoContent();
         }
+        
+        [HttpGet("calculater")]
+        public IActionResult calculater(string calc)
+        { 
+            var data =  calc.Split(" ");
+            var numb1 = Convert.ToInt32(data[0]);
+            var numb2 = Convert.ToInt32(data[2]);
+            var operation = data[1];
+            if (operation == "-")
+            {
+                var result = numb1 - numb2;
+                return Ok(result);
+            }
+            else if (operation == "+")
+            {
+                var result = numb2 + numb1;
+                return Ok(result);
+            }
+            else if (operation == "*")
+            {
+                var result = numb1 * numb2;
+                return Ok(result);
+            }
+            else if (operation == "/")
+            {
+                if (numb2 == 0)
+                {
+                    return BadRequest(" ولك الوووووووووو لا يمكن القسمة على صفر يا غالي صحصح");
+                }
+                var result = numb1 / numb2;
+                return Ok(result);
+            }
+
+                return NoContent();
+        }
 
     }
 }

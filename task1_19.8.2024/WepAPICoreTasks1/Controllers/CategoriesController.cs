@@ -90,7 +90,7 @@ namespace WepAPICoreTasks1.Controllers
             return NoContent();
         }
 
-        [HttpPost]
+        [HttpPost("AddCaegory")]
         public IActionResult AddCategory([FromForm] CategoryDTO categoryDTO)
         {
             var uploadFile = Path.Combine(Directory.GetCurrentDirectory(), "Image");
