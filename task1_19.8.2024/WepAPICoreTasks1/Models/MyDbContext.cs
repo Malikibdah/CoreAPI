@@ -15,6 +15,10 @@ public partial class MyDbContext : DbContext
     {
     }
 
+    public virtual DbSet<Cart> Carts { get; set; }
+
+    public virtual DbSet<CartItem> CartItems { get; set; }
+
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Order> Orders { get; set; }
@@ -29,6 +33,39 @@ public partial class MyDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Cart>(entity =>
+        {
+            entity.HasKey(e => e.CartId).HasName("PK__Carts__51BCD7977C69A7AF");
+
+            entity.HasIndex(e => e.UserId, "UQ__Carts__1788CCADEA7DD9FF").IsUnique();
+
+            entity.Property(e => e.CartId).HasColumnName("CartID");
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+
+            entity.HasOne(d => d.User).WithOne(p => p.Cart)
+                .HasForeignKey<Cart>(d => d.UserId)
+                .HasConstraintName("FK__Carts__UserID__4222D4EF");
+        });
+
+        modelBuilder.Entity<CartItem>(entity =>
+        {
+            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B2A671B597D");
+
+            entity.HasIndex(e => new { e.CartId, e.ProductId }, "UQ__CartItem__9AFC1BF8C06C785A").IsUnique();
+
+            entity.Property(e => e.CartItemId).HasColumnName("CartItemID");
+            entity.Property(e => e.CartId).HasColumnName("CartID");
+            entity.Property(e => e.ProductId).HasColumnName("ProductID");
+
+            entity.HasOne(d => d.Cart).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.CartId)
+                .HasConstraintName("FK__CartItems__CartI__45F365D3");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.ProductId)
+                .HasConstraintName("FK__CartItems__Produ__46E78A0C");
+        });
+
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.CategoryId).HasName("PK__categori__19093A2B7E77631A");

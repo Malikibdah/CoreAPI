@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the table */
+        thead th {
+            background-color: black;
+            color: white;
+        }
+        tbody tr {
+            background-color: lightgray;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Shopping Cart</h1>
+        
+        <div id="cartContainer" class="mb-3" style="width: 18rem;"></div>
+        <div id="totalContainer" class="mb-3" style="width: 18rem;"></div>
+
+        <button id="clearCartBtn" class="btn btn-primary mb-3">Clear Cart</button>
+        <button id="checkoutBtn" class="btn btn-primary mb-3">Checkout</button>
+
+        <table id="cartitem" class="table">
+            <thead>
+                <tr>
+                    <th>Cart ID</th>
+                    <th>Product Name</th>
+                    <th>Product Image</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will go here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="cart.js"></script>
+    <!-- Include Bootstrap JS and dependencies (optional for interactivity) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

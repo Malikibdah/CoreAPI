@@ -52,11 +52,11 @@ namespace WepAPICoreTasks1.Controllers
             _db.SaveChanges();
             return NoContent();
         }
-        
+
         [HttpGet("calculater")]
         public IActionResult calculater(string calc)
-        { 
-            var data =  calc.Split(" ");
+        {
+            var data = calc.Split(" ");
             var numb1 = Convert.ToInt32(data[0]);
             var numb2 = Convert.ToInt32(data[2]);
             var operation = data[1];
@@ -85,8 +85,33 @@ namespace WepAPICoreTasks1.Controllers
                 return Ok(result);
             }
 
-                return NoContent();
+            return NoContent();
         }
+        [HttpGet("chicknumberstate")]
+        public IActionResult chicknumberstate(int num1, int num2)
+        {
+            if (num1 == 30 || num2 == 30)
+            {
+                return Ok("the number state is true");
+            }
+            else if ((num1 + num2) == 30)
+            {
+                return Ok("the number state is true");
+            }
+            else
+            {
+                return Ok("the number state is false");
+            }
 
+        }
+        [HttpGet("chichthenumber")]
+        public IActionResult chichthenumber(int num1)
+        {
+            if (num1 % 3 == 0 || num1 % 7 == 0 && num1 > 0)
+            { 
+                return Ok("true");
+            }
+            return Ok("false");
+        }
     }
 }

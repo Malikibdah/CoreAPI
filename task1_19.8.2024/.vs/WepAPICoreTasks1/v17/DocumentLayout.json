@@ -3,31 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\dtos\\productdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\productdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\dtos\\productrsponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\productrsponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange\\AppData\\Local\\SourceServer\\a2c17fa51ea45d4da0ceff7be121740bfbbc2c753dfcf7fc053c774703da85c1\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\core api\\coreapi\\task1_19.8.2024\\wepapicoretasks1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96327585-A100-47D2-B998-025675CF33A3}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,19 +38,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductDTOcs.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\ProductDTOcs.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\ProductDTOcs.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\ProductDTOcs.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\ProductDTOcs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "DocumentIndex": 2,
+              "Title": "AddtocartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\AddtocartDTO.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\AddtocartDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\AddtocartDTO.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\AddtocartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T19:16:43.094Z",
+              "WhenOpened": "2024-08-28T18:58:32.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Models\\Product.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\Models\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:07:28.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRsponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\ProductRsponseDTO.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\ProductRsponseDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\ProductRsponseDTO.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\ProductRsponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:04:47.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItemsResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\CartItemsResponseDTO.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\CartItemsResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\CartItemsResponseDTO.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\CartItemsResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:10:49.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Models\\CartItem.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:19:17.379Z",
               "EditorCaption": ""
             },
             {
@@ -58,33 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\AppData\\Local\\SourceServer\\a2c17fa51ea45d4da0ceff7be121740bfbbc2c753dfcf7fc053c774703da85c1\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a2c17fa51ea45d4da0ceff7be121740bfbbc2c753dfcf7fc053c774703da85c1\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\AppData\\Local\\SourceServer\\a2c17fa51ea45d4da0ceff7be121740bfbbc2c753dfcf7fc053c774703da85c1\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a2c17fa51ea45d4da0ceff7be121740bfbbc2c753dfcf7fc053c774703da85c1\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs [Read Only]",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADgAAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "CartitemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\CartitemsController.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\CartitemsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\CartitemsController.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\CartitemsController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:40:03.831Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwDYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:08:07.507Z",
+              "WhenOpened": "2024-08-28T09:20:49.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\UserDTO.cs",
@@ -92,46 +132,7 @@
               "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T20:35:51.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAiwF0AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:22:40.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAqwGcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T13:10:28.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core API\\CoreAPI\\task1_19.8.2024\\WepAPICoreTasks1\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAqwH4AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:17:46.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T20:35:51.998Z"
             }
           ]
         }
