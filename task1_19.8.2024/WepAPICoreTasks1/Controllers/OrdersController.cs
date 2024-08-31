@@ -10,15 +10,19 @@ namespace WepAPICoreTasks1.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly MyDbContext _db;
+        private readonly ILogger<OrdersController> _logger;
 
-        public OrdersController(MyDbContext db)
+
+        public OrdersController(MyDbContext db, ILogger<OrdersController> logger)
         {
             _db = db;
+            _logger = logger;
         }
         [HttpGet("Orders/getAllOrders")]
         public IActionResult getAllOrders()
         {
-            var Orders = _db.Orders.Include(m => m.User);
+            var Orders = _db.Orders.ToList();
+            _logger.LogInformation("I am malik ,");
             return Ok(Orders);
         }
 

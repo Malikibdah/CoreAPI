@@ -1,9 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Serilog;
 using WepAPICoreTasks1.Models;
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("app.log", rollingInterval: RollingInterval.Day)// Default file path);
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Host.UseSerilog();
 // Add services to the container.
 
 builder.Services.AddControllers();

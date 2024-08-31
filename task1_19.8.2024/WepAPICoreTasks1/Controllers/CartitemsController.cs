@@ -18,10 +18,10 @@ namespace WepAPICoreTasks1.Controllers
         [HttpGet]
         public IActionResult GetCartItems()
         {
-            var cartItems = _db.CartItems.Select(x =>
+            var cartItems = _db.CartItems.Where(m => m.CartId == 1).Select(x =>
             new CartItemsResponseDTO
             {
-
+                CartItemId = x.CartItemId,
                 CartId = x.CartId,
                 Quantity = x.Quantity,
                 ProductRsponseDTO = new ProductRsponseDTO
@@ -47,6 +47,37 @@ namespace WepAPICoreTasks1.Controllers
             _db.CartItems.Add(data);
             _db.SaveChanges();
             return Ok(data);
+        }
+        [HttpPut("CartItem/UpdateItem/{id:int}")]
+        public IActionResult UpdateCartItem(int id , [FromBody] UpdateCartItemDTO updateCartItemDTO)
+        {
+            var cartItem = _db.CartItems.FirstOrDefault(x => x.CartItemId == id);
+
+            cartItem.Quantity = updateCartItemDTO.Quantity;
+
+            _db.CartItems.Update(cartItem);
+            _db.SaveChanges();
+            return Ok(cartItem);
+        }
+        [HttpDelete("CartItem/DeletCartItemById/{id}")]
+        public IActionResult DeletCartItemById(int id)
+        {
+            if (id <= 0)
+            {
+                return BadRequest();
+            }
+            var cartItem = _db.CartItems.FirstOrDefault(malik => malik.CartItemId == id);
+
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                _db.CartItems.Remove(cartItem);
+            }
+            _db.SaveChanges();
+            return NoContent();
         }
     }
 }

@@ -16,12 +16,12 @@ async function GetProductById() {
        
     container.innerHTML = `<div class="card">
          <h5 class="card-title">${result.productName}</h5>
-         <img src="${result.productImage}" style="width:300px;height:200px ;" class="card-img-top" alt="...">
+         <img src="${result.productImage}" style="width:100%;height:100%px ; " class="card-img-top" alt="...">
          <div class="card-body">
            <h5 class="card-title">${result.productId}</h5>
            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <input type="nummber" class="form-control" id="quentity">
-           <button onclick="AddToCart(${result.productId})" class="btn btn-danger">Add to Cart</button>
+           <input type="nummber" class="form-control mb-2" id="quentity" required>
+           <button onclick="AddToCart(${result.productId})" class="btn btn-primary">Add to Cart</button>
          </div>
        </div> `;
        localStorage.setItem("cartId",1);
@@ -34,9 +34,15 @@ async function AddToCart() {
 let url1 = "https://localhost:44363/api/Cartitems";
 let cartId = localStorage.getItem("cartId");
 let productId = localStorage.getItem("productId");
-let quentity = document.getElementById("quentity").value;
-
-var data = 
+debugger;
+let quentity =  document.getElementById("quentity").value;
+console.log(typeof quentity);
+debugger;
+if ( quentity == "") {
+  alert("Please enter quantity");
+  return;
+}
+  var data = 
   {
     cartId: cartId,
     productId: productId,
@@ -50,7 +56,11 @@ let response = await fetch(url1, {
     'Content-Type' : 'application/json'
   }  
 });
+quentity.textContent = "Added to Cart";
 alert("Product added to cart");
+
+
+
 }
 
   

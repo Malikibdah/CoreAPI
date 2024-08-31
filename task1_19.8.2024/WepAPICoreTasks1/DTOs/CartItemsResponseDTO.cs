@@ -2,7 +2,8 @@
 {
     public class CartItemsResponseDTO
     {
-       
+
+        public int CartItemId { get; set; }
 
         public int? CartId { get; set; }
 

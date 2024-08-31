@@ -1,10 +1,10 @@
-const url = "https://localhost:44363/api/Cartitems";
 
 async function cartitem() {
-var response = await fetch(url);
-    var result = await response.json();
+    const url = "https://localhost:44363/api/Cartitems";
+    let response = await fetch(url);
+    let result = await response.json();
     
-    var container = document.getElementById('cartitem');
+    let container = document.getElementById('cartitem');
     
     result.forEach(element => {
        
@@ -13,9 +13,40 @@ var response = await fetch(url);
          <td>${element.productRsponseDTO.productName}</td>
          <td><img src="${element.productRsponseDTO.productImage}" class="card-img-top" style="width:100px;height:50px ;" alt="..."></td>
          <td>${element.productRsponseDTO.price}</td>
-         <td><input type="nummber" class="form-control" id="quentityincart" value="${element.quantity}"></td>
-         <td><button onclick="Updateproduct(${element.productId})" class="btn btn-danger">Edit</button></td>
+         <td><input type="number" class="form-control" id="quentityincart${element.cartItemId}" value="${element.quantity}"></td>
+         <td><button onclick="Updateproduct(${element.cartItemId})" class="btn btn-primary">Edit</button></td>
+         <td><button onclick="Deleteproduct(${element.cartItemId})" class="btn btn-danger">Delete</button></td>
        </tr> `;
     });
 }
-    cartitem();
+cartitem();
+
+async function Updateproduct(m) {
+   const url = `https://localhost:44363/api/Cartitems/CartItem/UpdateItem/${m}`;
+   quentity = {quantity: document.getElementById(`quentityincart${m}`).value};
+    let response = await fetch(url,
+        {
+            method : 'PUT',
+            body : JSON.stringify(quentity),
+            headers : {
+                'Content-Type' : 'application/json'
+              } 
+        }
+    );
+    alert("Product Edit from cart");
+   
+}
+
+async function Deleteproduct(m) {
+    const url = `https://localhost:44363/api/Cartitems/CartItem/DeletCartItemById/${m}`;
+    let response = await fetch(url,
+        {
+            method : 'DELETE',            
+            headers : {
+                'Content-Type' : 'application/json'
+              } 
+        }
+    );
+    alert("Product removed from cart");
+    location.reload();
+}

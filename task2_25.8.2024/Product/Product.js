@@ -21,13 +21,13 @@ var container = document.getElementById('containerproduct');
 result.forEach(element => {
     
    
-container.innerHTML += `<div class="card">
+container.innerHTML += `<div class="card mx-2" style="width: 18rem;">
      <h5 class="card-title">${element.productName}</h5>
-     <img src="${element.productImage}" class="card-img-top" style="width:300px;height:200px ;" alt="...">
+     <img src="${element.productImage}" class="card-img-top" style="width:100%;height:200px ;" alt="...">
      <div class="card-body">
        <h5 class="card-title">${element.productId}</h5>
        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-       <button onclick="ShowDetail(${element.productId})" class="btn btn-danger">Show More</button>
+       <button onclick="ShowDetail(${element.productId})" class="btn btn-primary">Show More</button>
      </div>
    </div> `;
 });
