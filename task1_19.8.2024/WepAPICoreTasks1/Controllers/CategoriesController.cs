@@ -60,7 +60,7 @@ namespace WepAPICoreTasks1.Controllers
         [Route("Categorys/GetCategoryById/{name}")] //route attribute with minemam value 2 
         public IActionResult GetCategoryByName(string name)
         {
-            var category = _db.Categories.Where(malik => malik.CategoryName == name);
+            var category = _db.Categories.FirstOrDefault(malik => malik.CategoryName == name);
             if (category == null)
             {
                 return NotFound();

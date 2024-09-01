@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WepAPICoreTasks1.DTOs;
@@ -21,8 +22,8 @@ namespace WepAPICoreTasks1.Controllers
         public IActionResult getAllUsers()
         {
             var User = _db.Users.ToList();
-            if (User == null) 
-            { 
+            if (User == null)
+            {
                 return NotFound();
             }
             return Ok(User);
@@ -38,7 +39,7 @@ namespace WepAPICoreTasks1.Controllers
             }
             var User = _db.Users.Find(id);
             if (User == null)
-            { 
+            {
                 return NotFound();
             }
             return Ok(User);
@@ -78,14 +79,14 @@ namespace WepAPICoreTasks1.Controllers
             return NoContent();
         }
         [HttpPost]
-        public IActionResult AddUser([FromForm] UserDTO userDTO )
+        public IActionResult AddUser([FromForm] UserDTO userDTO)
         {
 
             var data = new User
             {
-                Username = userDTO.Username ,
-                Password = userDTO.Password ,
-                Email = userDTO.Email ,
+                Username = userDTO.Username,
+                Password = userDTO.Password,
+                Email = userDTO.Email,
 
             };
 
@@ -94,7 +95,7 @@ namespace WepAPICoreTasks1.Controllers
             return Ok();
         }
         [HttpPut("UpdateUserById/{id:int}")]
-        public IActionResult UpdateUserById(int id ,[FromForm] UserDTO userDTO)
+        public IActionResult UpdateUserById(int id, [FromForm] UserDTO userDTO)
         {
             var user = _db.Users.FirstOrDefault(x => x.UserId == id);
 
@@ -106,5 +107,36 @@ namespace WepAPICoreTasks1.Controllers
             _db.SaveChanges();
             return Ok();
         }
+        [HttpPost("Register")]
+        public IActionResult RegestUser([FromForm] UserDTO userDTO)
+        {
+            byte[] passwordHash, passwordSalt;
+
+            PasswordHasher.CreatePasswordHash(userDTO.Password , out passwordHash , out passwordSalt);
+            var user = new User
+            {
+                Username = userDTO.Username,
+                Password = userDTO.Password,
+                Email = userDTO.Email,
+                PasswordHash = passwordHash,
+                PasswordSalt = passwordSalt
+
+            };
+            _db.Users.Add(user);
+            _db.SaveChanges();
+            return Ok(user);
+        }
+        [HttpPost("login")]
+        public IActionResult Login([FromForm] UserDTO userDTO)
+        {
+            var user = _db.Users.FirstOrDefault(x => x.Email == userDTO.Email);
+            if (user == null || !PasswordHasher.VerifyPasswordHash(userDTO.Password, user.PasswordHash, user.PasswordSalt))
+            {
+                return Unauthorized("Invalid username or password."); ;
+                    
+            };
+            return Ok(user);
+        }
+
     }
 }

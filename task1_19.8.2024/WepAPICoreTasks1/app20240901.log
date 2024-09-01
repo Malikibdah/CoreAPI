@@ -1,0 +1,690 @@
+2024-09-01 09:09:34.158 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:09:34.190 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:09:34.191 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:09:34.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:09:34.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 743.7885ms
+2024-09-01 09:09:34.934 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:09:34.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 4.5622ms
+2024-09-01 09:09:34.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:09:34.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2619ms
+2024-09-01 09:09:35.079 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:09:35.165 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.1337ms
+2024-09-01 09:10:05.286 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:10:05.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:10:05.307 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:10:05.308 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:10:05.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 136.1474ms
+2024-09-01 09:10:05.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:10:05.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:10:05.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.2631ms
+2024-09-01 09:10:05.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5483ms
+2024-09-01 09:10:05.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:10:05.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.998ms
+2024-09-01 09:10:13.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:10:13.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 3.5721ms
+2024-09-01 09:10:13.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:10:13.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:10:13.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.693ms
+2024-09-01 09:10:13.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.9519ms
+2024-09-01 09:10:13.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:10:13.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.963ms
+2024-09-01 09:10:43.156 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:10:43.163 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:10:43.179 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:10:43.179 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:10:43.309 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 146.3113ms
+2024-09-01 09:10:43.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:10:43.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:10:43.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0343ms
+2024-09-01 09:10:43.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.4404ms
+2024-09-01 09:10:43.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:10:43.500 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.1209ms
+2024-09-01 09:10:47.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:10:47.290 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.2635ms
+2024-09-01 09:10:47.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:10:47.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:10:47.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.6759ms
+2024-09-01 09:10:47.315 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.8091ms
+2024-09-01 09:10:47.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:10:47.350 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.3518ms
+2024-09-01 09:10:52.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:10:52.858 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:10:52.869 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:10:53.801 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 928.8261ms
+2024-09-01 09:10:53.802 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:10:53.804 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'WepAPICoreTasks1.Models.Product'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.CreatePropertyAccessExpression(Expression target, IProperty property)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.<>c__DisplayClass63_0.<TryRewriteStructuralTypeEquality>b__2(IProperty p)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.Aggregate[TSource](IEnumerable`1 source, Func`3 func)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.<>c__DisplayClass63_0.<TryRewriteStructuralTypeEquality>g__TryRewriteEntityEquality|0(Expression& result)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TryRewriteStructuralTypeEquality(ExpressionType nodeType, Expression left, Expression right, Boolean equalsMethod, Expression& result)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName() in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\Controllers\ProductsController.cs:line 188
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 09:10:53.841 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 500 null text/plain; charset=utf-8 990.4125ms
+2024-09-01 09:12:33.277 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:12:33.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:12:33.301 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:12:33.301 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:12:33.412 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 126.9917ms
+2024-09-01 09:12:33.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:12:33.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:12:33.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.6193ms
+2024-09-01 09:12:33.450 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.7322ms
+2024-09-01 09:12:33.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:12:33.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.5843ms
+2024-09-01 09:12:35.450 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:12:35.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 5.3041ms
+2024-09-01 09:12:35.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:12:35.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:12:35.475 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.8099ms
+2024-09-01 09:12:35.483 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.8573ms
+2024-09-01 09:12:35.511 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:12:35.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.0038ms
+2024-09-01 09:12:41.080 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:12:41.086 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:12:41.096 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:12:41.693 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:12:41.790 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 691.5116ms
+2024-09-01 09:12:41.790 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:12:41.791 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Product>()
+    .OrderBy(x => x.ProductName)
+    .TakeLast(__p_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Converters.IAsyncEnumerableOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TAsyncEnumerable value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IAsyncEnumerableOfTConverter`2.OnTryWrite(Utf8JsonWriter writer, TAsyncEnumerable value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 09:12:41.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 500 null text/plain; charset=utf-8 727.42ms
+2024-09-01 09:13:11.918 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:13:11.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:13:11.938 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:13:11.939 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:13:12.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 133.28ms
+2024-09-01 09:13:12.069 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:13:12.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:13:12.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.9088ms
+2024-09-01 09:13:12.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.9789ms
+2024-09-01 09:13:12.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:13:12.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.3656ms
+2024-09-01 09:13:16.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:13:16.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 3.8834ms
+2024-09-01 09:13:16.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:13:16.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:13:16.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.5735ms
+2024-09-01 09:13:16.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.7256ms
+2024-09-01 09:13:16.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:13:16.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0934ms
+2024-09-01 09:13:20.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:13:20.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 1.8491ms
+2024-09-01 09:13:20.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:13:20.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:13:20.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.5188ms
+2024-09-01 09:13:20.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.9958ms
+2024-09-01 09:13:20.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:13:20.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4421ms
+2024-09-01 09:13:24.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:13:24.737 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:13:24.746 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:13:25.176 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 427.55ms
+2024-09-01 09:13:25.176 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:13:25.178 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Product>()
+    .OrderBy(x => x.ProductName)
+    .TakeLast(__p_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName() in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\Controllers\ProductsController.cs:line 188
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 09:13:25.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 500 null text/plain; charset=utf-8 468.5171ms
+2024-09-01 09:15:44.495 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:15:44.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:15:44.516 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:15:44.517 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:15:44.636 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 133.9744ms
+2024-09-01 09:15:44.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:15:44.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:15:44.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.788ms
+2024-09-01 09:15:44.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.1172ms
+2024-09-01 09:15:44.780 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:15:44.849 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.8154ms
+2024-09-01 09:15:51.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:15:51.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.0238ms
+2024-09-01 09:15:51.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:15:51.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:15:51.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.8245ms
+2024-09-01 09:15:51.767 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.9475ms
+2024-09-01 09:15:51.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:15:51.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.7448ms
+2024-09-01 09:15:57.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:15:57.797 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:15:57.806 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:15:58.955 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName]
+2024-09-01 09:15:59.019 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:15:59.030 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 1220.7863ms
+2024-09-01 09:15:59.030 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:15:59.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 200 null application/json; charset=utf-8 1244.3576ms
+2024-09-01 09:16:48.732 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:16:48.740 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:16:48.754 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:16:48.754 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:16:48.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 126.0145ms
+2024-09-01 09:16:48.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:16:48.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:16:48.888 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.7086ms
+2024-09-01 09:16:48.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.0366ms
+2024-09-01 09:16:49.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:16:49.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.2539ms
+2024-09-01 09:16:52.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:16:52.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 3.4381ms
+2024-09-01 09:16:52.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:16:52.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:16:52.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.5348ms
+2024-09-01 09:16:52.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.2007ms
+2024-09-01 09:16:52.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:16:52.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6189ms
+2024-09-01 09:16:58.258 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:16:58.266 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:16:58.275 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:16:59.241 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName]
+2024-09-01 09:16:59.295 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+<TakeRangeFromEndIterator>d__281`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:16:59.307 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 1029.3745ms
+2024-09-01 09:16:59.307 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:16:59.315 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 200 null application/json; charset=utf-8 1057.0531ms
+2024-09-01 09:18:17.933 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:18:17.942 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:18:17.955 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:18:17.955 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:18:18.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 151.5547ms
+2024-09-01 09:18:18.107 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:18:18.107 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:18:18.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.3692ms
+2024-09-01 09:18:18.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.7578ms
+2024-09-01 09:18:18.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:18:18.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.2334ms
+2024-09-01 09:18:20.512 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:18:20.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 6.6711ms
+2024-09-01 09:18:20.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:18:20.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:18:20.548 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.6661ms
+2024-09-01 09:18:20.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.927ms
+2024-09-01 09:18:20.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:18:20.614 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5421ms
+2024-09-01 09:18:25.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:18:25.280 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:18:25.291 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:18:25.939 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 646.3178ms
+2024-09-01 09:18:25.940 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:18:25.941 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Product>()
+    .OrderBy(x => x.ProductName)
+    .TakeLast(__p_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName() in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\Controllers\ProductsController.cs:line 188
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 09:18:25.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 500 null text/plain; charset=utf-8 694.3527ms
+2024-09-01 09:19:33.947 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:19:33.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:19:33.968 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:19:33.968 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:19:34.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 124.7449ms
+2024-09-01 09:19:34.091 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:19:34.091 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:19:34.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0105ms
+2024-09-01 09:19:34.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.9256ms
+2024-09-01 09:19:34.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:19:34.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.3631ms
+2024-09-01 09:29:14.917 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:29:14.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:29:14.941 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:29:14.941 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:29:15.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 153.004ms
+2024-09-01 09:29:15.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:29:15.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:29:15.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0353ms
+2024-09-01 09:29:15.104 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.7818ms
+2024-09-01 09:29:15.226 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:29:15.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.5666ms
+2024-09-01 09:29:20.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:29:20.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.3801ms
+2024-09-01 09:29:20.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:29:20.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:29:20.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.6867ms
+2024-09-01 09:29:20.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.3669ms
+2024-09-01 09:29:20.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:29:20.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.748ms
+2024-09-01 09:29:33.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:29:33.516 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:29:33.526 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:29:34.482 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName] DESC
+2024-09-01 09:29:34.556 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListPartition`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:29:34.566 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 1038.1951ms
+2024-09-01 09:29:34.567 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:29:34.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 200 null application/json; charset=utf-8 1062.8697ms
+2024-09-01 09:33:48.630 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:33:48.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:33:48.652 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:33:48.652 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 09:33:48.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 131.9772ms
+2024-09-01 09:33:48.784 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:33:48.785 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:33:48.787 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.8426ms
+2024-09-01 09:33:48.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.9783ms
+2024-09-01 09:33:48.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:33:48.965 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.6535ms
+2024-09-01 09:33:50.874 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 09:33:50.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.5182ms
+2024-09-01 09:33:50.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 09:33:50.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:33:50.897 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.1419ms
+2024-09-01 09:33:50.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.1571ms
+2024-09-01 09:33:50.934 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 09:33:50.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.6423ms
+2024-09-01 09:33:55.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - null null
+2024-09-01 09:33:55.962 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:33:55.972 +03:00 [INF] Route matched with {action = "OrderProductByName", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderProductByName() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:33:56.990 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_0) [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName] DESC
+2024-09-01 09:33:57.047 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:33:57.058 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1) in 1084.36ms
+2024-09-01 09:33:57.058 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.OrderProductByName (WepAPICoreTasks1)'
+2024-09-01 09:33:57.067 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Products/OrderProductByName - 200 null application/json; charset=utf-8 1112.5166ms
+2024-09-01 09:57:08.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Cartitems - null null
+2024-09-01 09:57:08.692 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:08.694 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1)'
+2024-09-01 09:57:08.701 +03:00 [INF] Route matched with {action = "GetCartItems", controller = "Cartitems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartItems() on controller WepAPICoreTasks1.Controllers.CartitemsController (WepAPICoreTasks1).
+2024-09-01 09:57:08.746 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.DTOs.CartItemsResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:57:09.068 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartItemID] AS [CartItemId], [c].[CartID] AS [CartId], [c].[Quantity], [p].[ProductName], [p].[ProductImage], [p].[Price]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+WHERE [c].[CartID] = 1
+2024-09-01 09:57:09.103 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1) in 402.1916ms
+2024-09-01 09:57:09.104 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1)'
+2024-09-01 09:57:09.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Cartitems - 200 null application/json; charset=utf-8 429.1184ms
+2024-09-01 09:57:17.156 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44363/api/Cartitems/CartItem/UpdateItem/27 - null null
+2024-09-01 09:57:17.158 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:17.161 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44363/api/Cartitems/CartItem/UpdateItem/27 - 204 null null 4.8713ms
+2024-09-01 09:57:17.164 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44363/api/Cartitems/CartItem/UpdateItem/27 - application/json 17
+2024-09-01 09:57:17.167 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:17.168 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.UpdateCartItem (WepAPICoreTasks1)'
+2024-09-01 09:57:17.184 +03:00 [INF] Route matched with {action = "UpdateCartItem", controller = "Cartitems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCartItem(Int32, WepAPICoreTasks1.DTOs.UpdateCartItemDTO) on controller WepAPICoreTasks1.Controllers.CartitemsController (WepAPICoreTasks1).
+2024-09-01 09:57:17.458 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-09-01 09:57:17.693 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-09-01 09:57:17.708 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.CartItem'.
+2024-09-01 09:57:17.711 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartitemsController.UpdateCartItem (WepAPICoreTasks1) in 526.1151ms
+2024-09-01 09:57:17.711 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.UpdateCartItem (WepAPICoreTasks1)'
+2024-09-01 09:57:17.711 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44363/api/Cartitems/CartItem/UpdateItem/27 - 200 null application/json; charset=utf-8 547.7934ms
+2024-09-01 09:57:21.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Cartitems - null null
+2024-09-01 09:57:21.274 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:21.275 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1)'
+2024-09-01 09:57:21.275 +03:00 [INF] Route matched with {action = "GetCartItems", controller = "Cartitems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartItems() on controller WepAPICoreTasks1.Controllers.CartitemsController (WepAPICoreTasks1).
+2024-09-01 09:57:21.277 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.DTOs.CartItemsResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:57:21.290 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartItemID] AS [CartItemId], [c].[CartID] AS [CartId], [c].[Quantity], [p].[ProductName], [p].[ProductImage], [p].[Price]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+WHERE [c].[CartID] = 1
+2024-09-01 09:57:21.291 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1) in 15.8209ms
+2024-09-01 09:57:21.291 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1)'
+2024-09-01 09:57:21.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Cartitems - 200 null application/json; charset=utf-8 18.3083ms
+2024-09-01 09:57:24.837 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44363/api/Cartitems/CartItem/DeletCartItemById/29 - null null
+2024-09-01 09:57:24.838 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:24.839 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44363/api/Cartitems/CartItem/DeletCartItemById/29 - 204 null null 2.0255ms
+2024-09-01 09:57:24.842 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44363/api/Cartitems/CartItem/DeletCartItemById/29 - application/json null
+2024-09-01 09:57:24.842 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:24.843 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.DeletCartItemById (WepAPICoreTasks1)'
+2024-09-01 09:57:24.846 +03:00 [INF] Route matched with {action = "DeletCartItemById", controller = "Cartitems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletCartItemById(Int32) on controller WepAPICoreTasks1.Controllers.CartitemsController (WepAPICoreTasks1).
+2024-09-01 09:57:24.862 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-09-01 09:57:24.901 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [CartItemID] = @p0;
+2024-09-01 09:57:24.915 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-09-01 09:57:24.915 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartitemsController.DeletCartItemById (WepAPICoreTasks1) in 68.6999ms
+2024-09-01 09:57:24.915 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.DeletCartItemById (WepAPICoreTasks1)'
+2024-09-01 09:57:24.916 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44363/api/Cartitems/CartItem/DeletCartItemById/29 - 204 null null 73.7471ms
+2024-09-01 09:57:26.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Cartitems - null null
+2024-09-01 09:57:26.355 +03:00 [INF] CORS policy execution successful.
+2024-09-01 09:57:26.355 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1)'
+2024-09-01 09:57:26.355 +03:00 [INF] Route matched with {action = "GetCartItems", controller = "Cartitems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCartItems() on controller WepAPICoreTasks1.Controllers.CartitemsController (WepAPICoreTasks1).
+2024-09-01 09:57:26.358 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.DTOs.CartItemsResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:57:26.360 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartItemID] AS [CartItemId], [c].[CartID] AS [CartId], [c].[Quantity], [p].[ProductName], [p].[ProductImage], [p].[Price]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+WHERE [c].[CartID] = 1
+2024-09-01 09:57:26.362 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1) in 6.4733ms
+2024-09-01 09:57:26.362 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartitemsController.GetCartItems (WepAPICoreTasks1)'
+2024-09-01 09:57:26.362 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Cartitems - 200 null application/json; charset=utf-8 8.2545ms
+2024-09-01 13:31:24.939 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 13:31:24.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 13:31:24.994 +03:00 [INF] Hosting environment: Development
+2024-09-01 13:31:24.994 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 13:31:25.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 13:31:25.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 13:31:25.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 310.3309ms
+2024-09-01 13:31:25.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 16.9255ms
+2024-09-01 13:31:25.326 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.6319ms
+2024-09-01 13:31:25.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 13:31:25.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.9038ms
+2024-09-01 13:31:45.528 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 13:31:45.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 13:31:45.569 +03:00 [INF] Hosting environment: Development
+2024-09-01 13:31:45.569 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 13:31:45.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 13:31:45.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 13:31:45.817 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 278.9663ms
+2024-09-01 13:31:45.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.508ms
+2024-09-01 13:31:45.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.6301ms
+2024-09-01 13:31:45.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 13:31:46.114 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.7765ms
+2024-09-01 13:32:17.272 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/Register - multipart/form-data; boundary=----WebKitFormBoundaryqMVmxDEWsHjAB0Ex 351
+2024-09-01 13:32:17.286 +03:00 [INF] CORS policy execution successful.
+2024-09-01 13:32:17.290 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-01 13:32:17.306 +03:00 [INF] Route matched with {action = "RegestUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegestUser(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 13:32:18.688 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@p0='?' (Size = 30) (DbType = AnsiString), @p1='?' (Size = 30) (DbType = AnsiString), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-01 13:32:18.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-01 13:32:18.746 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1) in 1436.7068ms
+2024-09-01 13:32:18.746 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-01 13:32:18.752 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/Register - 200 null application/json; charset=utf-8 1480.2487ms
+2024-09-01 15:15:57.229 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 15:15:57.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 15:15:57.289 +03:00 [INF] Hosting environment: Development
+2024-09-01 15:15:57.289 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 15:15:57.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 15:15:57.577 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 330.0185ms
+2024-09-01 15:15:57.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.7804ms
+2024-09-01 15:15:57.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 15:15:57.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.3835ms
+2024-09-01 15:15:57.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 15:15:57.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 212.2156ms
+2024-09-01 23:02:48.758 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 23:02:48.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:02:48.781 +03:00 [INF] Hosting environment: Development
+2024-09-01 23:02:48.781 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 23:02:48.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 144.5728ms
+2024-09-01 23:02:48.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:02:48.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.4093ms
+2024-09-01 23:02:48.918 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:02:48.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.7889ms
+2024-09-01 23:02:49.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:02:49.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.8349ms
+2024-09-01 23:03:17.108 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 23:03:17.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:03:17.132 +03:00 [INF] Hosting environment: Development
+2024-09-01 23:03:17.132 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 23:03:17.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 133.5277ms
+2024-09-01 23:03:17.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:03:17.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:03:17.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.9594ms
+2024-09-01 23:03:17.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6997ms
+2024-09-01 23:03:17.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:03:17.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.9415ms
+2024-09-01 23:04:51.402 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 23:04:51.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:04:51.424 +03:00 [INF] Hosting environment: Development
+2024-09-01 23:04:51.425 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 23:04:51.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 129.8299ms
+2024-09-01 23:04:51.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:04:51.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:04:51.553 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.1109ms
+2024-09-01 23:04:51.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.5275ms
+2024-09-01 23:04:51.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:04:51.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.8434ms
+2024-09-01 23:04:54.605 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:04:54.614 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 9.2519ms
+2024-09-01 23:04:54.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:04:54.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:04:54.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.5669ms
+2024-09-01 23:04:54.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5384ms
+2024-09-01 23:04:54.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:04:54.672 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.4279ms
+2024-09-01 23:05:08.637 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:05:08.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 2.055ms
+2024-09-01 23:05:08.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:05:08.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:05:08.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.5903ms
+2024-09-01 23:05:08.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.1672ms
+2024-09-01 23:05:08.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:05:08.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.9554ms
+2024-09-01 23:05:19.102 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:05:19.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 2.1863ms
+2024-09-01 23:05:19.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:05:19.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:05:19.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.6239ms
+2024-09-01 23:05:19.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.4221ms
+2024-09-01 23:05:19.247 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:05:19.250 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.6704ms
+2024-09-01 23:05:28.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:05:28.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 2.5061ms
+2024-09-01 23:05:28.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:05:28.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:05:28.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.6141ms
+2024-09-01 23:05:28.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.4905ms
+2024-09-01 23:05:28.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:05:28.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.0241ms
+2024-09-01 23:06:02.767 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:06:02.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 2.6665ms
+2024-09-01 23:06:02.793 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:06:02.793 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:06:02.793 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.5965ms
+2024-09-01 23:06:02.800 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.7535ms
+2024-09-01 23:06:02.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:06:02.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.254ms
+2024-09-01 23:06:17.582 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Categories/Categorys/getAllCategories - null null
+2024-09-01 23:06:17.589 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CategoriesController.getAllCategories11 (WepAPICoreTasks1)'
+2024-09-01 23:06:17.603 +03:00 [INF] Route matched with {action = "getAllCategories11", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories11() on controller WepAPICoreTasks1.Controllers.CategoriesController (WepAPICoreTasks1).
+2024-09-01 23:06:18.449 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [categories] AS [c]
+2024-09-01 23:06:18.485 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.Models.Category, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 23:06:18.493 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CategoriesController.getAllCategories11 (WepAPICoreTasks1) in 888.2209ms
+2024-09-01 23:06:18.493 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CategoriesController.getAllCategories11 (WepAPICoreTasks1)'
+2024-09-01 23:06:18.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Categories/Categorys/getAllCategories - 200 null application/json; charset=utf-8 915.6995ms
+2024-09-01 23:07:53.183 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 23:07:53.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:07:53.203 +03:00 [INF] Hosting environment: Development
+2024-09-01 23:07:53.204 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 23:07:53.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 133.2423ms
+2024-09-01 23:07:53.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:07:53.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:07:53.343 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.5862ms
+2024-09-01 23:07:53.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.6742ms
+2024-09-01 23:07:53.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:07:53.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.947ms
+2024-09-01 23:07:57.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:07:57.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.9026ms
+2024-09-01 23:07:57.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:07:57.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:07:57.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.6993ms
+2024-09-01 23:07:57.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.8383ms
+2024-09-01 23:07:57.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:07:57.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4824ms
+2024-09-01 23:10:09.115 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 23:10:09.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:10:09.138 +03:00 [INF] Hosting environment: Development
+2024-09-01 23:10:09.138 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-01 23:10:09.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 134.0249ms
+2024-09-01 23:10:09.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:10:09.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:10:09.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.4952ms
+2024-09-01 23:10:09.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5047ms
+2024-09-01 23:10:09.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:10:09.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.9717ms
+2024-09-01 23:10:12.425 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-01 23:10:12.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.2021ms
+2024-09-01 23:10:12.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-01 23:10:12.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 23:10:12.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.6027ms
+2024-09-01 23:10:12.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3739ms
+2024-09-01 23:10:12.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-01 23:10:12.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.9387ms
+2024-09-01 23:10:27.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Categories/Categorys/GetCategoryById/clothes - null null
+2024-09-01 23:10:27.071 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CategoriesController.GetCategoryByName (WepAPICoreTasks1)'
+2024-09-01 23:10:27.087 +03:00 [INF] Route matched with {action = "GetCategoryByName", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCategoryByName(System.String) on controller WepAPICoreTasks1.Controllers.CategoriesController (WepAPICoreTasks1).
+2024-09-01 23:10:28.231 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__name_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [categories] AS [c]
+WHERE [c].[CategoryName] = @__name_0
+2024-09-01 23:10:28.275 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.Category'.
+2024-09-01 23:10:28.285 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CategoriesController.GetCategoryByName (WepAPICoreTasks1) in 1195.2385ms
+2024-09-01 23:10:28.285 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CategoriesController.GetCategoryByName (WepAPICoreTasks1)'
+2024-09-01 23:10:28.294 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Categories/Categorys/GetCategoryById/clothes - 200 null application/json; charset=utf-8 1231.8911ms

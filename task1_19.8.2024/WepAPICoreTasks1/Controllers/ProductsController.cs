@@ -13,9 +13,9 @@ namespace WepAPICoreTasks1.Controllers
     {
         private readonly MyDbContext _db;
 
-        public ProductsController(MyDbContext db) 
+        public ProductsController(MyDbContext db)
         {
-            _db = db; 
+            _db = db;
         }
         //[HttpGet]
         //public IActionResult getAllProducts()
@@ -48,7 +48,7 @@ namespace WepAPICoreTasks1.Controllers
         {
             var Products = _db.Products.ToList();
             if (Products == null)
-            { 
+            {
                 return NotFound();
             }
 
@@ -68,7 +68,7 @@ namespace WepAPICoreTasks1.Controllers
             {
                 return NotFound();
             }
-            
+
             return Ok(Products);
         }
 
@@ -91,7 +91,7 @@ namespace WepAPICoreTasks1.Controllers
                 return BadRequest();
             }
             var Products = _db.Products.FirstOrDefault(malik => malik.ProductId == id);
-           
+
             if (Products == null)
             {
                 return NotFound();
@@ -116,7 +116,7 @@ namespace WepAPICoreTasks1.Controllers
         [HttpGet("Products/SortProducs")]
         public IActionResult SortProducs()
         {
-            var Products = _db.Products.OrderByDescending(x=>x.Price).ToList();
+            var Products = _db.Products.OrderByDescending(x => x.Price).ToList();
             if (Products == null)
             {
                 return NotFound();
@@ -154,20 +154,20 @@ namespace WepAPICoreTasks1.Controllers
         }
 
         [HttpPut("UpdateProductById/{id:int}")]
-        public IActionResult UpdateProductById(int id ,[FromForm] ProductDTOcs productDTO)
+        public IActionResult UpdateProductById(int id, [FromForm] ProductDTOcs productDTO)
         {
 
-            if(productDTO.ProductImage != null) {
-            var uploadImageFolder = Path.Combine(Directory.GetCurrentDirectory(), "Image");
-            if (!Directory.Exists(uploadImageFolder))
-            {
-                Directory.CreateDirectory(uploadImageFolder);
-            }
-            var imageFile = Path.Combine(uploadImageFolder, productDTO.ProductImage.FileName);
-            using (var stream = new FileStream(imageFile, FileMode.Create))
-            {
-                productDTO.ProductImage.CopyToAsync(stream);
-            }
+            if (productDTO.ProductImage != null) {
+                var uploadImageFolder = Path.Combine(Directory.GetCurrentDirectory(), "Image");
+                if (!Directory.Exists(uploadImageFolder))
+                {
+                    Directory.CreateDirectory(uploadImageFolder);
+                }
+                var imageFile = Path.Combine(uploadImageFolder, productDTO.ProductImage.FileName);
+                using (var stream = new FileStream(imageFile, FileMode.Create))
+                {
+                    productDTO.ProductImage.CopyToAsync(stream);
+                }
             }
             var product = _db.Products.FirstOrDefault(x => x.ProductId == id);
 
@@ -176,13 +176,19 @@ namespace WepAPICoreTasks1.Controllers
             product.Price = productDTO.Price;
             product.CategoryId = productDTO.CategoryId;
             product.Description = productDTO.Description;
-            
+
 
             _db.Products.Update(product);
             _db.SaveChanges();
             return Ok();
         }
-        
+        [HttpGet("OrderProductByName")]
+        public IActionResult OrderProductByName()
+        {
+            var Products = _db.Products.OrderByDescending(x => x.ProductName).Take(5).ToList();
+            return Ok(Products);
+        }
+      
 
     }
 }
