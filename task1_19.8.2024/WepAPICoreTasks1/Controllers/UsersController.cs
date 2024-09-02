@@ -137,6 +137,21 @@ namespace WepAPICoreTasks1.Controllers
             };
             return Ok(user);
         }
-
+        [HttpGet("UserInfo/{email}")]
+        public IActionResult UserInfo(string email)
+        {
+            var user = _db.Users.FirstOrDefault(x => x.Email == email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            var userinfo = new UserInfo 
+            { 
+                Email = user.Email,
+                Username = user.Username,
+                UserId = user.UserId
+            };
+            return Ok(userinfo);
+        }       
     }
 }

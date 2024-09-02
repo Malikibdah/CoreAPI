@@ -1,0 +1,468 @@
+2024-09-02 11:37:29.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-02 11:37:29.482 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-02 11:37:29.509 +03:00 [INF] Hosting environment: Development
+2024-09-02 11:37:29.509 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-02 11:37:30.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-02 11:37:30.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 751.2754ms
+2024-09-02 11:37:30.236 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.1462ms
+2024-09-02 11:37:30.238 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-02 11:37:30.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.3869ms
+2024-09-02 11:37:30.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-02 11:37:30.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.1341ms
+2024-09-02 11:38:26.317 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/Register - multipart/form-data; boundary=----WebKitFormBoundaryC6J3XU7vAQ1sf8uz 354
+2024-09-02 11:38:26.347 +03:00 [INF] CORS policy execution successful.
+2024-09-02 11:38:26.356 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-02 11:38:26.410 +03:00 [INF] Route matched with {action = "RegestUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegestUser(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 11:38:29.453 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[@p0='?' (Size = 30) (DbType = AnsiString), @p1='?' (Size = 30) (DbType = AnsiString), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-02 11:38:29.548 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 11:38:29.587 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1) in 3166.7987ms
+2024-09-02 11:38:29.587 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-02 11:38:29.604 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/Register - 200 null application/json; charset=utf-8 3287.0597ms
+2024-09-02 11:39:03.221 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryrXPB3kvOaYxdPQAf 354
+2024-09-02 11:39:03.226 +03:00 [INF] CORS policy execution successful.
+2024-09-02 11:39:03.227 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:39:03.231 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 11:39:03.910 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 11:39:03.928 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 696.5445ms
+2024-09-02 11:39:03.929 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:39:03.932 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Cryptography.HMACSHA512..ctor(Byte[] key)
+   at WepAPICoreTasks1.DTOs.PasswordHasher.VerifyPasswordHash(String password, Byte[] storedHash, Byte[] storedSalt) in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\DTOs\PasswordHasher.cs:line 21
+   at WepAPICoreTasks1.Controllers.UsersController.Login(UserDTO userDTO) in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\Controllers\UsersController.cs:line 133
+   at lambda_method101(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-02 11:39:04.013 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 500 null text/plain; charset=utf-8 792.5463ms
+2024-09-02 11:40:07.541 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryQWntFZuV0YswTzyW 351
+2024-09-02 11:40:07.545 +03:00 [INF] CORS policy execution successful.
+2024-09-02 11:40:07.545 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:40:07.546 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 11:40:07.592 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 11:40:07.600 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 11:40:07.601 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 54.6883ms
+2024-09-02 11:40:07.601 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:40:07.602 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 60.7369ms
+2024-09-02 11:42:13.205 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundary5UYeJvJLAm9Oy7hX 354
+2024-09-02 11:42:13.206 +03:00 [INF] CORS policy execution successful.
+2024-09-02 11:42:13.207 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:42:13.207 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 11:42:13.230 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 11:42:13.231 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 23.5247ms
+2024-09-02 11:42:13.231 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:42:13.232 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Cryptography.HMACSHA512..ctor(Byte[] key)
+   at WepAPICoreTasks1.DTOs.PasswordHasher.VerifyPasswordHash(String password, Byte[] storedHash, Byte[] storedSalt) in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\DTOs\PasswordHasher.cs:line 21
+   at WepAPICoreTasks1.Controllers.UsersController.Login(UserDTO userDTO) in C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1\Controllers\UsersController.cs:line 133
+   at lambda_method101(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-02 11:42:13.234 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 500 null text/plain; charset=utf-8 29.0772ms
+2024-09-02 11:46:28.355 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryPqycKZfJM5fJif60 354
+2024-09-02 11:46:28.356 +03:00 [INF] CORS policy execution successful.
+2024-09-02 11:46:28.356 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:46:28.356 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 11:46:28.364 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 11:46:28.366 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 11:46:28.367 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 9.9536ms
+2024-09-02 11:46:28.367 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 11:46:28.367 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 12.1291ms
+2024-09-02 13:22:46.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-02 13:22:46.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 14.3892ms
+2024-09-02 13:22:46.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-02 13:22:46.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.8003ms
+2024-09-02 13:22:46.869 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-02 13:22:46.877 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.8ms
+2024-09-02 13:22:46.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-02 13:22:47.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.8847ms
+2024-09-02 13:23:29.482 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/Register - multipart/form-data; boundary=----WebKitFormBoundarykG4PcJrXdRCgPIB2 351
+2024-09-02 13:23:29.483 +03:00 [INF] CORS policy execution successful.
+2024-09-02 13:23:29.483 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-02 13:23:29.483 +03:00 [INF] Route matched with {action = "RegestUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegestUser(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 13:23:29.503 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 30) (DbType = AnsiString), @p1='?' (Size = 30) (DbType = AnsiString), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-02 13:23:29.503 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 13:23:29.504 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1) in 20.1669ms
+2024-09-02 13:23:29.504 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-02 13:23:29.504 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/Register - 200 null application/json; charset=utf-8 21.4905ms
+2024-09-02 14:48:16.909 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/Register - multipart/form-data; boundary=----WebKitFormBoundaryEr76g80fA5BMltHH 353
+2024-09-02 14:48:16.910 +03:00 [INF] CORS policy execution successful.
+2024-09-02 14:48:16.910 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-02 14:48:16.910 +03:00 [INF] Route matched with {action = "RegestUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegestUser(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 14:48:16.926 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 30) (DbType = AnsiString), @p1='?' (Size = 30) (DbType = AnsiString), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-02 14:48:16.927 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 14:48:16.927 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1) in 17.0051ms
+2024-09-02 14:48:16.927 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.RegestUser (WepAPICoreTasks1)'
+2024-09-02 14:48:16.928 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/Register - 200 null application/json; charset=utf-8 18.3313ms
+2024-09-02 14:49:35.141 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryNUBNRw8vtcFKD47z 353
+2024-09-02 14:49:35.141 +03:00 [INF] CORS policy execution successful.
+2024-09-02 14:49:35.141 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 14:49:35.141 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 14:49:35.148 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 14:49:35.150 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 14:49:35.150 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 8.7104ms
+2024-09-02 14:49:35.150 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 14:49:35.150 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 9.6684ms
+2024-09-02 15:47:12.552 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryJve55qBN6vXryS9v 251
+2024-09-02 15:47:12.553 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:47:12.553 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:47:12.553 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:47:12.561 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:47:12.596 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 42.9398ms
+2024-09-02 15:47:12.596 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:47:12.596 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 44.2464ms
+2024-09-02 15:47:20.682 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundary5n73BFvFrcAGnzj5 251
+2024-09-02 15:47:20.682 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:47:20.682 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:47:20.682 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:47:20.684 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:47:20.685 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 2.2323ms
+2024-09-02 15:47:20.685 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:47:20.685 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 2.8823ms
+2024-09-02 15:49:07.796 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryygRsB2x8vZRTLD7J 251
+2024-09-02 15:49:07.797 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:49:07.797 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:49:07.797 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:49:07.798 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:49:07.798 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 1.1585ms
+2024-09-02 15:49:07.798 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:49:07.798 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 1.766ms
+2024-09-02 15:49:33.936 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundarySgC1ie1tT6NJX4Vs 251
+2024-09-02 15:49:33.936 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:49:33.937 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:49:33.937 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:49:33.937 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:49:33.938 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 0.875ms
+2024-09-02 15:49:33.938 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:49:33.938 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 1.5519ms
+2024-09-02 15:49:55.595 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryGF6SYjOs9vElZqGD 251
+2024-09-02 15:49:55.595 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:49:55.595 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:49:55.595 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:49:55.596 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:49:55.596 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 0.7137ms
+2024-09-02 15:49:55.596 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:49:55.596 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 1.272ms
+2024-09-02 15:52:21.404 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryvevsuCpSHrpDfKCX 251
+2024-09-02 15:52:21.404 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:52:21.404 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:52:21.404 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:52:21.405 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:52:21.405 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 0.9261ms
+2024-09-02 15:52:21.405 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:52:21.405 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 1.6242ms
+2024-09-02 15:52:40.043 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryJpEjxrQ7edhSL6Ah 251
+2024-09-02 15:52:40.043 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:52:40.043 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:52:40.043 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:52:40.044 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:52:40.045 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 1.9203ms
+2024-09-02 15:52:40.045 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:52:40.046 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 2.4566ms
+2024-09-02 15:53:43.883 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryrvobdqxhy1I8KcjO 251
+2024-09-02 15:53:43.883 +03:00 [INF] CORS policy execution successful.
+2024-09-02 15:53:43.883 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:53:43.883 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 15:53:43.884 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-02 15:53:43.884 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 0.9046ms
+2024-09-02 15:53:43.884 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 15:53:43.884 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 400 null application/problem+json; charset=utf-8 1.7005ms
+2024-09-02 16:02:01.293 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryq5OfAMUDYEa4erva 353
+2024-09-02 16:02:01.293 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:02:01.293 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:02:01.293 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:02:01.315 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 16:02:01.316 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 16:02:01.316 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 22.5656ms
+2024-09-02 16:02:01.316 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:02:01.316 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 23.5898ms
+2024-09-02 16:10:59.224 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryoWAOWP1Vztn1byNl 353
+2024-09-02 16:10:59.225 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:10:59.225 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:10:59.226 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:10:59.275 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 16:10:59.277 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 16:10:59.278 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 51.8625ms
+2024-09-02 16:10:59.278 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:10:59.278 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 54.5281ms
+2024-09-02 16:14:11.703 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryEHpWJiAq8r9aZlwn 353
+2024-09-02 16:14:11.703 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:14:11.703 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:14:11.703 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:14:11.712 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 16:14:11.713 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 16:14:11.713 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 10.1441ms
+2024-09-02 16:14:11.713 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:14:11.713 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 10.9079ms
+2024-09-02 16:14:36.743 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundarydC2XJWJKxG63HrrG 353
+2024-09-02 16:14:36.743 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:14:36.743 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:14:36.743 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:14:36.745 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 16:14:36.745 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-02 16:14:36.746 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 2.2444ms
+2024-09-02 16:14:36.746 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:14:36.746 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 200 null application/json; charset=utf-8 2.9052ms
+2024-09-02 16:16:52.358 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44363/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryRhUpuikAzn4pUTA4 355
+2024-09-02 16:16:52.359 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:16:52.359 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:16:52.359 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:16:52.374 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userDTO_Email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__userDTO_Email_0
+2024-09-02 16:16:52.374 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-09-02 16:16:52.375 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 16.5076ms
+2024-09-02 16:16:52.376 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-02 16:16:52.376 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44363/api/Users/login - 401 null text/plain; charset=utf-8 17.4634ms
+2024-09-02 16:25:13.274 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-02 16:25:13.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-02 16:25:13.298 +03:00 [INF] Hosting environment: Development
+2024-09-02 16:25:13.299 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core API\CoreAPI\task1_19.8.2024\WepAPICoreTasks1
+2024-09-02 16:25:13.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 174.8504ms
+2024-09-02 16:25:13.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-02 16:25:13.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-02 16:25:13.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.8086ms
+2024-09-02 16:25:13.500 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0077ms
+2024-09-02 16:25:13.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-02 16:25:13.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.6296ms
+2024-09-02 16:25:18.030 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/index.html - null null
+2024-09-02 16:25:18.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/index.html - 200 null text/html;charset=utf-8 4.9644ms
+2024-09-02 16:25:18.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_vs/browserLink - null null
+2024-09-02 16:25:18.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-02 16:25:18.059 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.9199ms
+2024-09-02 16:25:18.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.8756ms
+2024-09-02 16:25:18.128 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - null null
+2024-09-02 16:25:18.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.1242ms
+2024-09-02 16:25:36.191 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/newuser@gmail.com - null null
+2024-09-02 16:25:36.197 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:25:36.213 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:25:37.218 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:25:37.295 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:25:37.310 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 1091.9845ms
+2024-09-02 16:25:37.310 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:25:37.317 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/newuser@gmail.com - 200 null application/json; charset=utf-8 1126.3378ms
+2024-09-02 16:46:17.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/newuser - null null
+2024-09-02 16:46:17.385 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:46:17.387 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:46:17.387 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:46:17.464 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:46:17.467 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-02 16:46:17.501 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 113.5309ms
+2024-09-02 16:46:17.502 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:46:17.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/newuser - 404 null application/problem+json; charset=utf-8 128.8365ms
+2024-09-02 16:46:53.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/m@gmail.com - null null
+2024-09-02 16:46:53.547 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:46:53.548 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:46:53.548 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:46:53.710 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:46:53.712 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:46:53.713 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 164.0689ms
+2024-09-02 16:46:53.713 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:46:53.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/m@gmail.com - 200 null application/json; charset=utf-8 168.9507ms
+2024-09-02 16:50:24.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/ - null null
+2024-09-02 16:50:24.668 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:50:24.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/ - 404 null null 3.3707ms
+2024-09-02 16:50:24.672 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44363/api/Users/UserInfo/, Response status code: 404
+2024-09-02 16:50:39.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 16:50:39.940 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:50:39.941 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:50:39.941 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:50:39.948 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:50:39.949 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:50:39.950 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 7.9109ms
+2024-09-02 16:50:39.950 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:50:39.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 10.4547ms
+2024-09-02 16:51:37.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 16:51:37.425 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:51:37.425 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:51:37.429 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:51:37.429 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:51:37.430 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 4.8632ms
+2024-09-02 16:51:37.430 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:51:37.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 5.8257ms
+2024-09-02 16:52:22.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 16:52:22.364 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:52:22.364 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:52:22.364 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:52:22.367 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:52:22.367 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:52:22.367 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 3.1361ms
+2024-09-02 16:52:22.367 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:52:22.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 4.5443ms
+2024-09-02 16:54:35.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 16:54:35.052 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:54:35.052 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:54:35.052 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:54:35.056 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:54:35.056 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:54:35.056 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 4.3435ms
+2024-09-02 16:54:35.056 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:54:35.056 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 5.1591ms
+2024-09-02 16:54:38.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/ - null null
+2024-09-02 16:54:38.770 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:54:38.770 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/ - 404 null null 0.6699ms
+2024-09-02 16:54:38.771 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44363/api/Users/UserInfo/, Response status code: 404
+2024-09-02 16:54:43.547 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 16:54:43.547 +03:00 [INF] CORS policy execution successful.
+2024-09-02 16:54:43.547 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:54:43.547 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 16:54:43.550 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 16:54:43.550 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 16:54:43.551 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 3.2202ms
+2024-09-02 16:54:43.551 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 16:54:43.551 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 4.2343ms
+2024-09-02 17:05:37.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 17:05:37.704 +03:00 [INF] CORS policy execution successful.
+2024-09-02 17:05:37.704 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:05:37.704 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 17:05:37.714 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 17:05:37.715 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 17:05:37.715 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 11.0705ms
+2024-09-02 17:05:37.715 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:05:37.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 11.9739ms
+2024-09-02 17:25:20.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/MalikIbdah88@gmail.com - null null
+2024-09-02 17:25:20.740 +03:00 [INF] CORS policy execution successful.
+2024-09-02 17:25:20.740 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:25:20.740 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 17:25:20.758 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 17:25:20.758 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-02 17:25:20.759 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 18.9225ms
+2024-09-02 17:25:20.759 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:25:20.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/MalikIbdah88@gmail.com - 404 null application/problem+json; charset=utf-8 19.9943ms
+2024-09-02 17:25:31.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - null null
+2024-09-02 17:25:31.399 +03:00 [INF] CORS policy execution successful.
+2024-09-02 17:25:31.399 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:25:31.399 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 17:25:31.402 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 17:25:31.403 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.DTOs.UserInfo'.
+2024-09-02 17:25:31.403 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 3.4193ms
+2024-09-02 17:25:31.403 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:25:31.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.com - 200 null application/json; charset=utf-8 4.5373ms
+2024-09-02 17:25:35.441 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.co - null null
+2024-09-02 17:25:35.442 +03:00 [INF] CORS policy execution successful.
+2024-09-02 17:25:35.442 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:25:35.442 +03:00 [INF] Route matched with {action = "UserInfo", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserInfo(System.String) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-02 17:25:35.444 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__email_0='?' (Size = 30) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-09-02 17:25:35.444 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-02 17:25:35.444 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1) in 2.2728ms
+2024-09-02 17:25:35.444 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.UserInfo (WepAPICoreTasks1)'
+2024-09-02 17:25:35.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/batool@gmail.co - 404 null application/problem+json; charset=utf-8 3.1842ms
+2024-09-02 17:25:40.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44363/api/Users/UserInfo/ - null null
+2024-09-02 17:25:40.043 +03:00 [INF] CORS policy execution successful.
+2024-09-02 17:25:40.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44363/api/Users/UserInfo/ - 404 null null 1.1133ms
+2024-09-02 17:25:40.043 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44363/api/Users/UserInfo/, Response status code: 404
