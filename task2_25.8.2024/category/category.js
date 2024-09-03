@@ -1,8 +1,8 @@
-const url = 'https://localhost:44363/api/Categories/Categorys/getAllCategories';
 
 
 
 async function GetCategories() {
+  const url = 'https://localhost:44363/api/Categories/Categorys/getAllCategories';
     
 var response = await fetch(url);
 var result = await response.json();

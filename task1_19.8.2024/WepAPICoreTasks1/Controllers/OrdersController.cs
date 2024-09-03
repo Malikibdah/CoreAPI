@@ -112,7 +112,7 @@ namespace WepAPICoreTasks1.Controllers
         public IActionResult chichthenumber(int num1)
         {
             if (num1 % 3 == 0 || num1 % 7 == 0 && num1 > 0)
-            { 
+            {
                 return Ok("true");
             }
             return Ok("false");

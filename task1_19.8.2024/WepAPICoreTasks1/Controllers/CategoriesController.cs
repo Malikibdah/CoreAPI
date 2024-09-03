@@ -33,13 +33,13 @@ namespace WepAPICoreTasks1.Controllers
         public IActionResult getAllCategories()
         {
             var categories = _db.Categories.ToList();
-            if(categories==null)
+            if (categories == null)
             {
                 return NotFound();
             }
             return Ok(categories);
         }
-        
+
         [HttpGet]
         [Route("Categorys/GetCategoryById/{id:int:min(2)}")] //route attribute with minemam value 2 
         public IActionResult GetCategoryById(int id)
@@ -49,8 +49,8 @@ namespace WepAPICoreTasks1.Controllers
                 return BadRequest();
             }
             var categories = _db.Categories.Find(id);
-            if (categories == null) 
-            { 
+            if (categories == null)
+            {
                 return NotFound();
             }
             return Ok(categories);
@@ -76,7 +76,7 @@ namespace WepAPICoreTasks1.Controllers
             {
                 return BadRequest();
             }
-            var category = _db.Categories.Include(x=>x.Products).FirstOrDefault(malik => malik.CategoryId == id);
+            var category = _db.Categories.Include(x => x.Products).FirstOrDefault(malik => malik.CategoryId == id);
             if (category == null)
             {
                 return NotFound();
@@ -98,23 +98,23 @@ namespace WepAPICoreTasks1.Controllers
             {
                 Directory.CreateDirectory(uploadFile);
             }
-            var imgFile = Path.Combine(uploadFile,categoryDTO.CategoriesImage.FileName);
-            using (var steam = new FileStream(imgFile,FileMode.Create))
+            var imgFile = Path.Combine(uploadFile, categoryDTO.CategoriesImage.FileName);
+            using (var steam = new FileStream(imgFile, FileMode.Create))
             {
                 categoryDTO.CategoriesImage.CopyTo(steam);
             }
-            
-                var newCategory = new Category()
-                {
-                    CategoryName = categoryDTO.CategoryName,
-                    CategoryImage = categoryDTO.CategoriesImage.FileName,
-                };
+
+            var newCategory = new Category()
+            {
+                CategoryName = categoryDTO.CategoryName,
+                CategoryImage = categoryDTO.CategoriesImage.FileName,
+            };
             _db.Categories.Add(newCategory);
             _db.SaveChanges();
             return Ok();
         }
         [HttpPut("updateCategory/{id:int}")]
-        public IActionResult updateCategory(int id , [FromForm] CategoryDTO categoryDTO)
+        public IActionResult updateCategory(int id, [FromForm] CategoryDTO categoryDTO)
         {
             if (categoryDTO.CategoriesImage != null)
             {
@@ -137,7 +137,7 @@ namespace WepAPICoreTasks1.Controllers
             _db.Categories.Update(c);
             _db.SaveChanges();
 
-            return Ok(); 
+            return Ok();
         }
 
 

@@ -12,8 +12,20 @@ var url = 'https://localhost:44363/api/Products/Products/getAllProducts';
 
 
 async function GetProduct() {
+  
+  if (localStorage.getItem('token') == null) {
+    alert('You must be logged in to view this page');
+    window.location.href = "/login/login.html";
+  }
     
-var response = await fetch(url);
+var response = await fetch(url,{
+  headers: {
+    'Authorization': `Bearer ${localStorage.getItem('token')}`
+  }
+  
+}
+
+);
 var result = await response.json();
 console.log(result);
 var container = document.getElementById('containerproduct');

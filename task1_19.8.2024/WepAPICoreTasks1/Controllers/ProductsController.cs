@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -103,6 +104,7 @@ namespace WepAPICoreTasks1.Controllers
             _db.SaveChanges();
             return NoContent();
         }
+        //[Authorize]
         [HttpGet("Products/GetProductByCategoryId/{id}")]
         public IActionResult GetProductByCategoryId(int id)
         {
@@ -157,7 +159,8 @@ namespace WepAPICoreTasks1.Controllers
         public IActionResult UpdateProductById(int id, [FromForm] ProductDTOcs productDTO)
         {
 
-            if (productDTO.ProductImage != null) {
+            if (productDTO.ProductImage != null)
+            {
                 var uploadImageFolder = Path.Combine(Directory.GetCurrentDirectory(), "Image");
                 if (!Directory.Exists(uploadImageFolder))
                 {
@@ -188,7 +191,7 @@ namespace WepAPICoreTasks1.Controllers
             var Products = _db.Products.OrderByDescending(x => x.ProductName).Take(5).ToList();
             return Ok(Products);
         }
-      
+
 
     }
 }

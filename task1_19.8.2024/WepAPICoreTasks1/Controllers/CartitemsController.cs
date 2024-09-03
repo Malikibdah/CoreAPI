@@ -36,7 +36,7 @@ namespace WepAPICoreTasks1.Controllers
             return Ok(cartItems);
         }
         [HttpPost]
-        public IActionResult AddToCart([FromBody]AddtocartDTO addtocartDTO)
+        public IActionResult AddToCart([FromBody] AddtocartDTO addtocartDTO)
         {
             var data = new CartItem
             {
@@ -49,7 +49,7 @@ namespace WepAPICoreTasks1.Controllers
             return Ok(data);
         }
         [HttpPut("CartItem/UpdateItem/{id:int}")]
-        public IActionResult UpdateCartItem(int id , [FromBody] UpdateCartItemDTO updateCartItemDTO)
+        public IActionResult UpdateCartItem(int id, [FromBody] UpdateCartItemDTO updateCartItemDTO)
         {
             var cartItem = _db.CartItems.FirstOrDefault(x => x.CartItemId == id);
 
@@ -78,6 +78,33 @@ namespace WepAPICoreTasks1.Controllers
             }
             _db.SaveChanges();
             return NoContent();
+        }
+        [HttpPost("getnumberrepeatodd")]
+        public IActionResult single([FromBody] List<int> numbers)
+        {
+
+
+            Dictionary<int, int> numberCount = new Dictionary<int, int>();
+
+            foreach (var number in numbers)
+            {
+                if (numberCount.ContainsKey(number))
+                {
+                    numberCount[number]++;
+                }
+                else
+                {
+                    numberCount[number] = 1;
+                }
+            }
+
+            var singleOccurrenceNumbers = numberCount
+                .Where(kvp => kvp.Value == 1)
+                .Select(kvp => kvp.Key)
+                .ToList();
+
+            return Ok(singleOccurrenceNumbers);
+
         }
     }
 }

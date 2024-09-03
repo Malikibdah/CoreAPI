@@ -9,8 +9,11 @@ async function login() {
         method: 'POST',
         body: data
     });
+    let result = await response.json();
+   
     
     if(response.ok) {
+        localStorage.setItem("token", result.token);
         alert("Login successful");
         window.location.href = "/home/home.html";
         

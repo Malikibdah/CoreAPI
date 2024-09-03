@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using WepAPICoreTasks1.DTOs;
 using WepAPICoreTasks1.Models;
 
@@ -12,10 +13,12 @@ namespace WepAPICoreTasks1.Controllers
     public class UsersController : ControllerBase
     {
         private readonly MyDbContext _db;
-
-        public UsersController(MyDbContext db)
+        private readonly TokenGenerator _tokenGenerator;
+        public UsersController(MyDbContext db, TokenGenerator tokenGenerator)
         {
             _db = db;
+            _tokenGenerator = tokenGenerator;
+
         }
         [HttpGet]
         [Route("Users/getAllUsers")]
@@ -124,18 +127,30 @@ namespace WepAPICoreTasks1.Controllers
             };
             _db.Users.Add(user);
             _db.SaveChanges();
+            //var userrole = new UserRole
+            //{
+            //    UserId = user.UserId,
+            //    Role = "Admin"
+            //};
+            //_db.UserRoles.Add(userrole);
+            //_db.SaveChanges();
             return Ok(user);
         }
         [HttpPost("login")]
         public IActionResult Login([FromForm] UserDTO userDTO)
         {
             var user = _db.Users.FirstOrDefault(x => x.Email == userDTO.Email);
+            var roles = _db.UserRoles.Where(x => x.UserId == user.UserId).Select(ur => ur.Role).ToList();
             if (user == null || !PasswordHasher.VerifyPasswordHash(userDTO.Password, user.PasswordHash, user.PasswordSalt))
             {
                 return Unauthorized("Invalid username or password."); ;
                     
             };
-            return Ok(user);
+            var token = _tokenGenerator.GenerateToken(user.Username, roles);
+
+            return Ok(new { Token = token , User = user.Username });
+
+            
         }
         [HttpGet("UserInfo/{email}")]
         public IActionResult UserInfo(string email)
